@@ -1,9 +1,10 @@
 import React from "react";
+import '../index.css';
 
-const Chip = ({lable}) => {
+const Chip = ({label}) => {
     return(
         <div>
-            <p>{lable}</p>
+            <p className='chip'>{label}</p>
         </div>
     )
 }

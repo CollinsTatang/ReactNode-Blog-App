@@ -1,3 +1,4 @@
+import '../index.css';
 const SearchBar = ({ formSubmit, value, handleSearchKey, clearSearch }) => {
     return(
         <div className='searchBar-wrap'>
