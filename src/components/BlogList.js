@@ -1,6 +1,12 @@
-const BlogList = () => {
+import BlogItem from "./BlogItem"
+
+const BlogList = ({ blogs, content}) => {
     return(
-        <div>BlogList</div>
+        <div>
+            {blogs.map((blog) => (
+                <BlogItem blog={blog} content={content} />
+            ))}
+        </div>
     )
 }
 export default BlogList

@@ -1,4 +1,4 @@
-const BlogItem = () => {
+const BlogItem = ({blog, content}) => {
     return(
         <div>BlogItem</div>
     )
