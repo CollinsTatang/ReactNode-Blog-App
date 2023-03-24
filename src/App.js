@@ -6,6 +6,7 @@ import PostPage from "./Pages/PostPage";
 function App() {
 
   const[getBlogContent, setGetBlogContent] = useState([])
+  
   const getData = (blog) => {
     setGetBlogContent(blog);
   }

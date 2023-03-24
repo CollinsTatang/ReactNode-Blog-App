@@ -16,6 +16,10 @@ const HomePage = ({data}) => {
   // Search for blog by category
   const handleSearchResults = () => {
    //handle search inputs
+   const filtered = blogs.filter((blog) => {
+    return blog.tags[0].name.toLowerCase().includes(searchKey.toLowerCase());
+  });
+  setBlogs(filtered);
   };
   // Clear search and show all blogs
   const handleClearSearch = () => {
@@ -29,6 +33,12 @@ const HomePage = ({data}) => {
  const BlogContent = (id) => {
   data(id);
 }
+
+useEffect(() => {
+    blogList().then((res) => {
+        setBlogs(res);
+    })
+} , []);
   return (
     <div>
       {/* Page Header */}
