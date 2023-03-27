@@ -1,5 +1,5 @@
 import React from "react";
-import '../index.css';
+import '../css/Chip.css';
 
 const Chip = ({label}) => {
     return(

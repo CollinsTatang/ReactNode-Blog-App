@@ -1,4 +1,4 @@
-import '../index.css';
+import '../css/EmptyList.css';
 const EmptyList = () => {
     return(
         <div className='emptyList-wrap'>

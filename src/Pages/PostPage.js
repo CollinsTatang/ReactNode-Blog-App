@@ -1,5 +1,5 @@
 import {React} from 'react';
-import '../index.css';
+import '../css/PostPage.css';
 import Chip from '../components/Chip';
 import EmptyList from '../components/EmptyList';
 import { Link } from 'react-router-dom';

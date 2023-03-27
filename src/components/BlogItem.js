@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Chip from "./Chip"
+import '../css/BlogItem.css'
 
 const BlogItem = ({blog, content}) => {
     return(
