@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
-import PostPage from "./Pages/PostPage";
 
 function App() {
 
@@ -14,7 +13,6 @@ function App() {
     <div className="container">
       <Routes>
         <Route path="/" element={<HomePage data={getData}/>} />
-        <Route path="/blog/:id" element={<PostPage data={getData}/>} />
       </Routes>
     </div>
   );
