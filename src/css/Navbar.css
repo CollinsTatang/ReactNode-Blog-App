@@ -1,0 +1,56 @@
+.navbar {
+  width: 1024px;
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+span {
+  cursor: pointer;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.write {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 300;
+  background-color: lightgreen;
+  border: 1px solid teal;
+}
+
+.logo-style {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 200;
+  background-color: lightgreen;
+  border: 12px solid teal;
+  margin: 20px;
+}

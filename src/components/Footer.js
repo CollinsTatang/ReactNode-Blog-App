@@ -1,8 +1,10 @@
+import '../css/Footer.css';
+
 const Footer = () => {
     return(
-        <div>
-            <h3>Footer Pages</h3>
-        </div>
+        <footer>
+            <h3>Footer</h3>
+        </footer>
     )
 }
 export default Footer;

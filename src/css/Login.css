@@ -1,6 +1,7 @@
 .login {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  height: 75vh;
   align-items: center;
   justify-content: center;
 }

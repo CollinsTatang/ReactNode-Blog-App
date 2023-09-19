@@ -4,27 +4,36 @@ import '../css/Navbar.css'
 
 const Navbar = () => {
     return(
-        <header>
-            <nav className="navbar">
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/post">Post</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/login">Login</Link>
-                    </li>
-                    <li>
-                        <Link to="/register">Register</Link>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <div>
+            <div className="navbar">
+                <div>
+                    <h1 className="logo-style">logo</h1>
+                </div>
+                <div className="links">
+                    <Link className="link" to="/">
+                        <h6>Home</h6>
+                    </Link>
+                    <Link className="link" to="/post">
+                        <h6>Post</h6>
+                    </Link>
+                    <Link className="link" to="/about">
+                        <h6>About</h6>
+                    </Link>
+                    <Link className="link" to="/login">
+                        <h6>Login</h6>
+                    </Link>
+                    <Link className="link" to="/register">
+                        <h6>Register</h6>
+                    </Link>
+                    <span>john</span>
+                    <span>logout</span>
+                    <span className="write">
+                        <Link className="link" to="./write">Write</Link>
+                    </span>
+                </div>
+            </div>
+        </div>
+            
     )
 }
 export default Navbar;

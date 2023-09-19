@@ -7,6 +7,8 @@ import Post from "./Pages/Post";
 import About from "./Pages/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Write from "./Pages/Write";
+import './App.css';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/post" element={<Post />} />
+          <Route path="/write" element={<Write />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
