@@ -3,7 +3,9 @@ import '../css/Footer.css';
 const Footer = () => {
     return(
         <footer>
-            <h3>Footer</h3>
+            <span>
+                Develop by <b>Collins Tatang</b>
+            </span>
         </footer>
     )
 }
