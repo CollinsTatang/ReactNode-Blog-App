@@ -1,0 +1,22 @@
+.posts {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.post {
+  flex: 2;
+}
+
+.post-img {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
